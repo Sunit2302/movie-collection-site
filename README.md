@@ -1,10 +1,10 @@
 🎬 Movie Management System
+
 A robust and user-friendly Movie Management System built with React and Node.js (Express), designed to allow users to add, update, view, and delete movie records. The project includes support for uploading movie images, managing a list of movies with key details, and providing validation for seamless user interaction.
 
 🚀 Features
 Add Movies:
 Add new movies by providing essential details such as:
-
 Title
 Year
 Rating (validated as a number between 0 and 10 with one decimal point)
@@ -23,6 +23,7 @@ Validation:
 Frontend validation ensures input fields are accurate before submission.
 
 🛠️ Tech Stack
+
 Frontend
 React.js: For building a dynamic and responsive user interface.
 Material-UI: Pre-built components for a sleek, modern, and responsive design.
@@ -41,7 +42,11 @@ Preview images before submission.
 Authentication:
 
 Secured endpoints with token-based authentication using JWT.
+
+
 📌 API Endpoints
+
+
 GET /api/movies: Fetch all movies.
 POST /api/movies: Add a new movie (title, year, rating, link, and image).
 PUT /api/movies/:id: Update movie details by ID.
